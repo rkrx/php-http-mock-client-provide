@@ -1,0 +1,15 @@
+{
+    "name": "rkr/php-http-mock-client-psr-provider",
+    "description": "A temporary meta-package to provide a \"provide\"-section with \"psr/http-client-implementation\" for \"php-http/mock-client\"",
+    "license": "MIT",
+    "authors": [{
+        "name": "Ron Kirschler",
+        "email": "ron.kirschler@gmail.com"
+    }],
+    "require": {
+        "php-http/mock-client": ">= 1.4.1"
+    },
+    "provide": {
+        "psr/http-client-implementation": ">= 1.0"
+    }
+}
